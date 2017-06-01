@@ -173,7 +173,6 @@ for word in message:
     if None in form:
         form.remove(None)
     form = set(form)
-    print(wor_rep)
     wor_re = morph.parse(wor_rep)[0]
     try:
         if wor_re.tag.POS == 'INFN':
